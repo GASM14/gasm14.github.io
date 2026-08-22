@@ -4,101 +4,161 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gonçalo Marçalo | Cybersecurity & IAM Engineer</title>
-<meta name="description" content="Cybersecurity and Identity & Access Management engineer based in Portugal.">
+<meta name="description" content="Cybersecurity and Identity & Access Management engineer based in Portugal. Specialising in IAM, federation protocols and security automation.">
+<meta name="author" content="Gonçalo Marçalo">
+<meta property="og:title" content="Gonçalo Marçalo | Cybersecurity & IAM Engineer">
+<meta property="og:description" content="Portfolio of a Cybersecurity & IAM engineer specialised in identity federation, Active Directory, privileged access and security automation.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gasm14.github.io">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="hero">
   <div class="container">
+    <div class="avatar">GM</div>
     <h1>Gonçalo Marçalo</h1>
     <p class="tagline">Cybersecurity &amp; Identity &amp; Access Management Engineer</p>
-    <p class="location"> Portugal</p>
+    <p class="location">📍 Portugal · Open to remote &amp; hybrid roles</p>
     <nav class="hero-links">
-      <a href="https://www.linkedin.com/in/gon%C3%A7alo-mar%C3%A7alo-57a996190" target="_blank">LinkedIn</a>
-      <a href="https://github.com/GASM14" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/gon%C3%A7alo-mar%C3%A7alo-57a996190" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/GASM14" target="_blank" rel="noopener">GitHub</a>
       <a href="mailto:gonsaloam@outlook.pt">Email</a>
+      <a href="#projects">Projects</a>
     </nav>
   </div>
 </header>
 
 <main class="container">
 
-  <section id="about">
+  <section id="about" class="fade-in">
     <h2>About</h2>
     <p>
       I am a Cybersecurity and Identity &amp; Access Management (IAM) engineer with hands-on
-      experience across enterprise environments including Volvo Group, Telefónica and the
-      Spanish Ministry of Defence. I specialise in identity federation (SAML, OIDC, OAuth),
-      Active Directory / Entra ID, privileged access management and security automation.
+      experience across enterprise environments including <strong>Volvo Group</strong>,
+      <strong>Telefónica</strong> and the <strong>Spanish Ministry of Defence</strong>.
     </p>
     <p>
-      I enjoy building tools that automate security operations and make security teams
-      more effective.
+      I specialise in identity federation (SAML, OIDC, OAuth), Active Directory / Entra ID,
+      privileged access management and security automation. I enjoy building tools that
+      automate security operations and make security teams more effective.
     </p>
   </section>
 
-  <section id="skills">
+  <section id="experience" class="fade-in">
+    <h2>Experience</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2022 — Present</div>
+        <h3>Cybersecurity &amp; IAM Engineer</h3>
+        <p class="company">Enterprise environments — Volvo Group · Telefónica · Spanish Ministry of Defence</p>
+        <ul>
+          <li>Designed and operated identity federation flows (SAML 2.0, OIDC, OAuth 2.0) for thousands of users</li>
+          <li>Hardened Active Directory and Entra ID environments with Conditional Access and PIM</li>
+          <li>Built Python / Bash automation that reduced manual audit work from weeks to minutes</li>
+          <li>Collaborated with SOC teams on incident investigation and response procedures</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2020 — 2022</div>
+        <h3>IT &amp; Infrastructure Roles</h3>
+        <p class="company">Various projects</p>
+        <ul>
+          <li>Windows &amp; Linux systems administration</li>
+          <li>Network configuration, firewalls and VPNs</li>
+          <li>Scripting and process automation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="fade-in">
     <h2>Core Skills</h2>
     <ul class="skills-grid">
-      <li>Identity &amp; Access Management (IAM)</li>
+      <li>Identity &amp; Access Management</li>
       <li>SAML / OIDC / OAuth federation</li>
       <li>Active Directory &amp; Entra ID</li>
-      <li>Privileged Access Management (CyberArk)</li>
-      <li>Security automation (Python, Bash, PowerShell)</li>
-      <li>Incident response &amp; SOC operations</li>
+      <li>Privileged Access (CyberArk)</li>
+      <li>Python · Bash · PowerShell</li>
+      <li>Incident response &amp; SOC</li>
       <li>Web scraping &amp; OSINT tooling</li>
       <li>Linux / Windows administration</li>
     </ul>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="fade-in">
     <h2>Projects</h2>
 
     <article class="project">
       <h3>🎯 Job Radar — Job Market Intelligence Dashboard</h3>
       <p>
-        Automated job market monitoring system for cybersecurity/IAM opportunities.
-        Scrapes 5 job boards, enriches descriptions via JSON-LD, applies a 50+ keyword
-        scoring engine and delivers a weekly interactive HTML dashboard.
+        Automated job market monitoring system for cybersecurity &amp; IAM opportunities.
+        Scrapes 5 job boards (LinkedIn, Indeed, ITJobs, Net-Empregos, Landing.jobs),
+        enriches descriptions via JSON-LD, applies a 50+ keyword scoring engine and
+        delivers a weekly interactive HTML dashboard by email.
       </p>
       <p class="tech">Python · BeautifulSoup · pandas · Resend API · HTML/CSS/JS</p>
-      <a href="https://github.com/GASM14/Job-Radar" target="_blank">View on GitHub →</a>
+      <a href="https://github.com/GASM14/Job-Radar" target="_blank" rel="noopener">View on GitHub →</a>
     </article>
 
     <article class="project">
       <h3>🏠 Homelab</h3>
       <p>
-        Self-hosted home lab for learning infrastructure, networking and security
-        in practice.
+        Self-hosted home lab for learning infrastructure, networking and security in practice.
+        Experiments with containers, identity providers, monitoring and defensive security.
       </p>
-      <a href="https://github.com/GASM14" target="_blank">View on GitHub →</a>
+      <p class="tech">Linux · Docker · Networking · Identity providers</p>
+      <a href="https://github.com/GASM14" target="_blank" rel="noopener">View on GitHub →</a>
     </article>
   </section>
 
-  <section id="certifications">
+  <section id="certifications" class="fade-in">
     <h2>Certifications &amp; Learning</h2>
     <ul>
-      <li>Google Cybersecurity Professional Certificate</li>
-      <li>CompTIA Security+ (in progress)</li>
+      <li><strong>Google Cybersecurity Professional Certificate</strong> — Google</li>
+      <li><strong>CompTIA Security+</strong> — in progress</li>
+      <li>Continuous study: IAM architectures, Zero Trust, cloud security (Azure &amp; AWS)</li>
     </ul>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="fade-in">
     <h2>Contact</h2>
     <p>
+      I am currently open to cybersecurity and IAM engineering roles.
       The best way to reach me is by email at
       <a href="mailto:gonsaloam@outlook.pt">gonsaloam@outlook.pt</a>
       or via
-      <a href="https://www.linkedin.com/in/gon%C3%A7alo-mar%C3%A7alo-57a996190" target="_blank">LinkedIn</a>.
+      <a href="https://www.linkedin.com/in/gon%C3%A7alo-mar%C3%A7alo-57a996190" target="_blank" rel="noopener">LinkedIn</a>.
     </p>
   </section>
 
 </main>
 
 <footer>
-  <p>© 2026 Gonçalo Marçalo · Built with GitHub Pages</p>
+  <p>© 2026 Gonçalo Marçalo · Built with GitHub Pages · <a href="https://github.com/GASM14/gasm14.github.io">Source</a></p>
 </footer>
+
+<button id="toTop" aria-label="Back to top">↑</button>
+
+<script>
+  // Fade-in on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Scroll-to-top button
+  const toTop = document.getElementById('toTop');
+  window.addEventListener('scroll', () => {
+    toTop.style.display = window.scrollY > 400 ? 'block' : 'none';
+  });
+  toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+</script>
 
 </body>
 </html>
