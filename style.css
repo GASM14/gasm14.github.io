@@ -44,19 +44,15 @@ body {
 }
 
 .avatar {
-  width: 110px;
-  height: 110px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.15);
-  backdrop-filter: blur(10px);
-  border: 3px solid rgba(255,255,255,0.3);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5em;
-  font-weight: 700;
+  border: 4px solid rgba(255,255,255,0.4);
+  object-fit: cover;
   margin-bottom: 20px;
   position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  background: rgba(255,255,255,0.15);
 }
 
 .hero h1 {
@@ -348,7 +344,7 @@ footer a:hover { color: var(--accent); }
   .hero { padding: 70px 0 60px; }
   .hero h1 { font-size: 2em; }
   .tagline { font-size: 1.05em; }
-  .avatar { width: 90px; height: 90px; font-size: 2em; }
+  .avatar { width: 110px; height: 110px; font-size: 2em; }
   .timeline { padding-left: 20px; }
   .timeline-item::before { left: -27px; }
   #toTop { bottom: 20px; right: 20px; width: 42px; height: 42px; }
