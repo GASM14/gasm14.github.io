@@ -339,6 +339,20 @@ footer a:hover { color: var(--accent); }
   box-shadow: 0 6px 18px rgba(56,189,248,0.6);
 }
 
+/* ===== Languages ===== */
+#languages .skills-grid li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#languages .level {
+  color: var(--accent);
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
 /* ===== Mobile ===== */
 @media (max-width: 640px) {
   .hero { padding: 70px 0 60px; }
